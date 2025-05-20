@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Leaving the room</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%; width: 100%;
+      font-family: 'Josefin Sans', sans-serif;
+      overflow: hidden;
+    }
+
+    body {
+      position: relative;
+    }
+
+    /* Background image shifted way left */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: -60vw;   /* shift left */
+      width: 160vw;          /* bigger than screen */
+      height: 100vh;
+      background: url("../media/sleeping.png") no-repeat left center;
+      background-size: cover;
+      z-index: -1;
+    }
+
+    /* Container for text, centered horizontally, at top */
+    .content {
+      position: relative;
+      width: 100%;
+      text-align: center;   /* horizontally center text */
+      padding-top: 30px;    /* space from top */
+    }
+
+    h1 {
+      color: #4169e1;
+      font-family: Baskerville, verdana;
+      border: 8px solid #4169e1;
+      padding: 10px;
+      border-radius: 35px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: black;
+      font-size: 22px;
+      margin: 0;
+    }
+
+    a {
+      color: #AED6F1;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Bedroom</h1>
+    <p>ZZZZ
+   <a href="sword.html">.....</a></p>
+  </div>
+</body>
+</html>
+    

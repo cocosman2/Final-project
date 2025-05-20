@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+
+h1{
+
+
+
+	color: #4169e1;
+	font-family: Baskerville,verdana;
+	border: 8px solid #4169e1;
+	padding:10px;
+	text-align: center;
+	border-radius: 35px;
+}
+p{ 
+font-family:"Josefin Sans" }
+a{
+	color:#AED6F1;
+}
+body.homepage {
+	background-color:ho   ;
+	background-image: url("media/boredom.png");}
+
+	body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:80vh;
+
+	margin:0; 
+	font-size:22px;
+
+
+
+       
+		width:600px;
+		margin:0 auto;
+	}
+	
+
+
+}
